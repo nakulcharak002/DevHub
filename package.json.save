@@ -1,10 +1,11 @@
 {
   "name": "devhub",
   "version": "1.0.0",
-  "description": "developers hub ",
+  "description": "developers hub",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "node.js",
@@ -13,7 +14,9 @@
   "author": "Nakul charak",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0",
-    "mongoose": "^8.17.1"
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
